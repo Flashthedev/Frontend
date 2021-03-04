@@ -42,20 +42,20 @@ export default function Index({ code }) {
         }
     }, []);
 
-    const menu = (
-        <Menu>
-            <Menu.Item>
-                <a target="blank" href="https://discord.gg/astral">
-                    Discord Server
-                </a>
-            </Menu.Item>
-            <Menu.Item>
-                <a target="blank" href="https://github.com/astral-cool">
-                    Github Repo
-                </a>
-            </Menu.Item>
-        </Menu>
-    );
+//     const menu = (
+//         <Menu>
+//             <Menu.Item>
+//                 <a target="blank" href="https://discord.gg/astral">
+//                     Discord Server
+//                 </a>
+//             </Menu.Item>
+//             <Menu.Item>
+//                 <a target="blank" href="https://github.com/astral-cool">
+//                     Github Repo
+//                 </a>
+//             </Menu.Item>
+//         </Menu>
+//     );
 
     const closeModal = () => {
         form.resetFields();
@@ -227,14 +227,14 @@ export default function Index({ code }) {
                         Login/Register
                     </Button>
 
-                    <Dropdown overlay={menu}>
+<!--                     <Dropdown overlay={menu}>
                         <Button
                             style={{ marginRight: '5px', borderRadius: '13px', height: '35px' }}
                             shape="round"
                         >
                             More Stuff <DownOutlined />
                         </Button>
-                    </Dropdown>
+                    </Dropdown> -->
                 </div>
 
                 <Modal
